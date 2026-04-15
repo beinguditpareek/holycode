@@ -44,7 +44,7 @@ export default function Home() {
         <div className="fixed inset-0 grid-overlay pointer-events-none z-0"></div>
 
         {/* Hero Slider Section */}
-        <section className="relative overflow-hidden h-[70vh]">
+        <section className="relative overflow-hidden h-[100vh]">
           <div className="relative h-full w-full">
             <div className="absolute inset-0 opacity-100 transition-opacity duration-1000 z-10 slide">
               <div className="absolute inset-0 z-[-1]">
