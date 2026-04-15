@@ -51,7 +51,7 @@ export default function Home() {
                 <img alt="For a software-defined world" className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/ADBb0uihhkP1Irj6F1OspQLkNsUx5BPyTP9cRoC9hm1ZV2jtJuWoOVjK5BmLPrJfb-mvMHDG-Uy6nIyQhKTfXMWhyE7LmFrilnFxe0q6_gY244OmME0Emn2CldUX6UXr963MMLvM6z9h7Wzq4TMKIb8l7p6wTe9O1YCiuBX6fZztqkqJq3wnhTyGQVsHTkN8zAfAlrKXMuyOUoccPZ_HxI0BadqGhQOaeraHvUwgXv8Njk2O9r_Ubxx_4DFybUtrlGBte2OWH2-CrqS28Q" />
                 <div className="absolute inset-0 bg-black/60 bg-gradient-to-t from-surface via-black/20 to-black/40"></div>
               </div>
-              <div className="container mx-auto px-8 h-full flex flex-col justify-center relative z-20">
+              <div className="container py-20 mx-auto px-8 h-full flex flex-col justify-center relative z-20">
                 <div className="max-w-4xl">
                   <h1 className="text-4xl md:text-6xl font-headline font-bold text-white leading-[1.1] tracking-tighter mb-8 transition-all duration-700 delay-300 slide-element opacity-0 translate-y-8">
                     For a software-defined<br />world
