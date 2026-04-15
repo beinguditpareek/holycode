@@ -48,13 +48,13 @@ export default function Home() {
           <div className="relative h-full w-full">
             <div className="absolute inset-0 opacity-100 transition-opacity duration-1000 z-10 slide">
               <div className="absolute inset-0 z-[-1]">
-                <img alt="For a software-defined world" className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/ADBb0uihhkP1Irj6F1OspQLkNsUx5BPyTP9cRoC9hm1ZV2jtJuWoOVjK5BmLPrJfb-mvMHDG-Uy6nIyQhKTfXMWhyE7LmFrilnFxe0q6_gY244OmME0Emn2CldUX6UXr963MMLvM6z9h7Wzq4TMKIb8l7p6wTe9O1YCiuBX6fZztqkqJq3wnhTyGQVsHTkN8zAfAlrKXMuyOUoccPZ_HxI0BadqGhQOaeraHvUwgXv8Njk2O9r_Ubxx_4DFybUtrlGBte2OWH2-CrqS28Q"/>
+                <img alt="For a software-defined world" className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/ADBb0uihhkP1Irj6F1OspQLkNsUx5BPyTP9cRoC9hm1ZV2jtJuWoOVjK5BmLPrJfb-mvMHDG-Uy6nIyQhKTfXMWhyE7LmFrilnFxe0q6_gY244OmME0Emn2CldUX6UXr963MMLvM6z9h7Wzq4TMKIb8l7p6wTe9O1YCiuBX6fZztqkqJq3wnhTyGQVsHTkN8zAfAlrKXMuyOUoccPZ_HxI0BadqGhQOaeraHvUwgXv8Njk2O9r_Ubxx_4DFybUtrlGBte2OWH2-CrqS28Q" />
                 <div className="absolute inset-0 bg-black/60 bg-gradient-to-t from-surface via-black/20 to-black/40"></div>
               </div>
               <div className="container mx-auto px-8 h-full flex flex-col justify-center relative z-20">
                 <div className="max-w-4xl">
                   <h1 className="text-4xl md:text-6xl font-headline font-bold text-white leading-[1.1] tracking-tighter mb-8 transition-all duration-700 delay-300 slide-element opacity-0 translate-y-8">
-                    For a software-defined<br/>world
+                    For a software-defined<br />world
                   </h1>
                   <p className="text-xl md:text-2xl text-on-surface-variant max-w-2xl font-body leading-relaxed mb-12 transition-all duration-700 delay-500 slide-element opacity-0 translate-y-8">
                     We empower businesses with a sustainable digital advantage through cutting-edge engineering and strategic innovation.
@@ -75,7 +75,7 @@ export default function Home() {
             <div className="absolute bottom-16 left-0 w-full z-30 px-8">
               <div className="container mx-auto flex justify-center gap-4">
                 <div className={`w-24 slider-progress-line ${mounted ? 'active-slide' : ''}`}>
-                  <div className="slider-progress-fill" style={{width: mounted ? '100%' : '45%'}}></div>
+                  <div className="slider-progress-fill" style={{ width: mounted ? '100%' : '45%' }}></div>
                 </div>
                 <div className="w-24 slider-progress-line">
                   <div className="slider-progress-fill"></div>
@@ -242,13 +242,13 @@ export default function Home() {
                 <div className="flex gap-8 overflow-x-auto hide-scrollbar snap-x snap-mandatory pb-20">
                   <div className="flex-none w-full md:w-[45%] lg:w-[31%] snap-start group relative overflow-hidden bg-surface-container border border-outline-variant/10 hover:border-primary/50 transition-all duration-500 rounded-xl">
                     <div className="aspect-[16/10] overflow-hidden">
-                      <img alt="FinStream Core" className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAKpPsOqzosExSXyaGExzSGDDf3aPdPEX3pz7O9IQjnmtQ9EoGSmACQH53o3UIL4d2BgKNVVVdq5HNty8A7RK7QUH2a5WivxblfSlpvMysFaQEHd8773SQy0O2Y2mIMfsfu13dZZwpCOZJSWhlI7nvKHtEEMbUSyqeR9-t-ctOFGuiC0j7omM1-7PMloZo26FLUzJTU4GYoKIs1apHKbA_PrIBZwjmx0j-B6ewzULrd203W-rKTK3oS2pG33Dc4TMJBwqvh0PVfcy1y"/>
+                      <img alt="FinStream Core" className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAKpPsOqzosExSXyaGExzSGDDf3aPdPEX3pz7O9IQjnmtQ9EoGSmACQH53o3UIL4d2BgKNVVVdq5HNty8A7RK7QUH2a5WivxblfSlpvMysFaQEHd8773SQy0O2Y2mIMfsfu13dZZwpCOZJSWhlI7nvKHtEEMbUSyqeR9-t-ctOFGuiC0j7omM1-7PMloZo26FLUzJTU4GYoKIs1apHKbA_PrIBZwjmx0j-B6ewzULrd203W-rKTK3oS2pG33Dc4TMJBwqvh0PVfcy1y" />
                     </div>
                     <div className="p-8">
                       <h3 className="text-2xl font-headline font-bold text-white mb-3 group-hover:text-primary transition-colors">FinStream Core</h3>
                       <p className="text-on-surface-variant text-sm leading-relaxed mb-6">Architecting a high-frequency trading engine with sub-millisecond latency for global markets.</p>
                       <a className="inline-flex items-center gap-2 text-primary text-xs font-bold uppercase tracking-widest group/link" href="#">
-                        View Project 
+                        View Project
                         <span className="material-symbols-outlined !text-sm group-hover/link:translate-x-1 transition-transform">arrow_forward</span>
                       </a>
                     </div>
@@ -256,13 +256,13 @@ export default function Home() {
 
                   <div className="flex-none w-full md:w-[45%] lg:w-[31%] snap-start group relative overflow-hidden bg-surface-container border border-outline-variant/10 hover:border-primary/50 transition-all duration-500 rounded-xl">
                     <div className="aspect-[16/10] overflow-hidden">
-                      <img alt="LogiBrain AI" className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQAdHmTe1fikUMyO9rCfqauqVrrry1U4wqlCklBOaPK4K0PRpPPu-DESO7ozjCZz9GG0HW_BK2skyN_lNvJUdLLhNXcwliLLagwuxJdOKFKiJYSGQ72Mh-ppi4CzKYNmQFGhoIEnK8Xx-4X9wtQ9rPUE50orZaPJYDo_Cz_zia4LcUqqgT_pbg3qLvLrmUmS6tKGMc8KmUVS0AcPwmNWZWgwRKHhXG4La3VWfBfEyt18rAfH_K-0Qy-s-zN4VeRxBYGkLmkkztGv6m"/>
+                      <img alt="LogiBrain AI" className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQAdHmTe1fikUMyO9rCfqauqVrrry1U4wqlCklBOaPK4K0PRpPPu-DESO7ozjCZz9GG0HW_BK2skyN_lNvJUdLLhNXcwliLLagwuxJdOKFKiJYSGQ72Mh-ppi4CzKYNmQFGhoIEnK8Xx-4X9wtQ9rPUE50orZaPJYDo_Cz_zia4LcUqqgT_pbg3qLvLrmUmS6tKGMc8KmUVS0AcPwmNWZWgwRKHhXG4La3VWfBfEyt18rAfH_K-0Qy-s-zN4VeRxBYGkLmkkztGv6m" />
                     </div>
                     <div className="p-8">
                       <h3 className="text-2xl font-headline font-bold text-white mb-3 group-hover:text-primary transition-colors">LogiBrain AI</h3>
                       <p className="text-on-surface-variant text-sm leading-relaxed mb-6">Implementing AI-driven route optimization reducing carbon footprint for major logistics providers.</p>
                       <a className="inline-flex items-center gap-2 text-primary text-xs font-bold uppercase tracking-widest group/link" href="#">
-                        View Project 
+                        View Project
                         <span className="material-symbols-outlined !text-sm group-hover/link:translate-x-1 transition-transform">arrow_forward</span>
                       </a>
                     </div>
@@ -270,13 +270,13 @@ export default function Home() {
 
                   <div className="flex-none w-full md:w-[45%] lg:w-[31%] snap-start group relative overflow-hidden bg-surface-container border border-outline-variant/10 hover:border-primary/50 transition-all duration-500 rounded-xl">
                     <div className="aspect-[16/10] overflow-hidden">
-                      <img alt="OmniCloud Retail" className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDdKhGcqdOfOPL1K4g5UO0hhpDZSfPvePaX-poOv2QZNt0gWz8uLAE5vFlXRUK5tnyuiV8Ojpei2oYOqu2HHDvaWK6jFnF9Oz4wRGLZiEYBO1GkFuXqejuA4rWRX6ceiTsx3rAecD1SKoKsaA-U77-2XHUn7CR1Qy1EngI9eQYcpXvaw71DeIWxT0k5ZOGp6b8mvd1ReV-Zrf88_eWUTmsNZryHvsZklj9tZxfLFQvrS6aMWo9zztW7cfz0ceckAK50757waRBQxElh"/>
+                      <img alt="OmniCloud Retail" className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDdKhGcqdOfOPL1K4g5UO0hhpDZSfPvePaX-poOv2QZNt0gWz8uLAE5vFlXRUK5tnyuiV8Ojpei2oYOqu2HHDvaWK6jFnF9Oz4wRGLZiEYBO1GkFuXqejuA4rWRX6ceiTsx3rAecD1SKoKsaA-U77-2XHUn7CR1Qy1EngI9eQYcpXvaw71DeIWxT0k5ZOGp6b8mvd1ReV-Zrf88_eWUTmsNZryHvsZklj9tZxfLFQvrS6aMWo9zztW7cfz0ceckAK50757waRBQxElh" />
                     </div>
                     <div className="p-8">
                       <h3 className="text-2xl font-headline font-bold text-white mb-3 group-hover:text-primary transition-colors">OmniCloud Retail</h3>
                       <p className="text-on-surface-variant text-sm leading-relaxed mb-6">Scaling global e-commerce infrastructure to handle 50M+ concurrent users during peak events.</p>
                       <a className="inline-flex items-center gap-2 text-primary text-xs font-bold uppercase tracking-widest group/link" href="#">
-                        View Project 
+                        View Project
                         <span className="material-symbols-outlined !text-sm group-hover/link:translate-x-1 transition-transform">arrow_forward</span>
                       </a>
                     </div>
@@ -286,7 +286,7 @@ export default function Home() {
 
               <div className="absolute bottom-4 left-0 w-full z-30 flex justify-center gap-4">
                 <div className={`w-16 slider-progress-line ${mounted ? 'active-slide' : ''}`}>
-                  <div className="slider-progress-fill" style={{width: mounted ? '100%' : '33%'}}></div>
+                  <div className="slider-progress-fill" style={{ width: mounted ? '100%' : '33%' }}></div>
                 </div>
                 <div className="w-16 slider-progress-line">
                   <div className="slider-progress-fill"></div>
@@ -310,7 +310,7 @@ export default function Home() {
               </div>
               <div className="text-secondary font-label text-xs tracking-[0.3em] uppercase pb-2">Client Testimonials // 2024</div>
             </div>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="bg-surface-container-high p-8 border border-outline-variant/10 hover:border-primary/40 transition-all group relative">
                 <span className="material-symbols-outlined text-primary text-4xl mb-6 opacity-30 group-hover:opacity-100 transition-opacity">format_quote</span>
@@ -370,7 +370,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-12 gap-y-12 md:gap-x-8 mb-20">
             <div className="md:col-span-3 space-y-8">
               <div>
-                <h2 className="text-xl font-bold tracking-tighter text-white font-headline mb-4 uppercase">Enable your digital<br/>advantage with Holycode</h2>
+                <h2 className="text-xl font-bold tracking-tighter text-white font-headline mb-4 uppercase">Enable your digital<br />advantage with Holycode</h2>
                 <button className="border border-white text-white px-6 py-2 text-xs font-bold uppercase tracking-widest hover:bg-white hover:text-black transition-colors">Connect with us</button>
               </div>
               <div className="flex gap-4">
@@ -380,7 +380,7 @@ export default function Home() {
                 <a className="text-white/60 hover:text-primary transition-colors" href="#"><span className="material-symbols-outlined !text-xl">work</span></a>
               </div>
             </div>
-            
+
             <div className="md:col-span-2">
               <h4 className="text-white font-bold text-[11px] uppercase tracking-[0.2em] mb-8 font-headline">Holycode India</h4>
               <ul className="space-y-4">
@@ -390,7 +390,7 @@ export default function Home() {
                 <li><a className="text-on-surface-variant/80 hover:text-white transition-colors text-xs font-medium" href="#">Events</a></li>
               </ul>
             </div>
-            
+
             <div className="md:col-span-2">
               <h4 className="text-white font-bold text-[11px] uppercase tracking-[0.2em] mb-8 font-headline">Services</h4>
               <ul className="space-y-4">
@@ -400,7 +400,7 @@ export default function Home() {
                 <li><a className="text-on-surface-variant/80 hover:text-white transition-colors text-xs font-medium" href="#">Software Engineering</a></li>
               </ul>
             </div>
-            
+
             <div className="md:col-span-2">
               <h4 className="text-white font-bold text-[11px] uppercase tracking-[0.2em] mb-8 font-headline">Industries</h4>
               <ul className="space-y-4">
@@ -410,19 +410,19 @@ export default function Home() {
                 <li><a className="text-on-surface-variant/80 hover:text-white transition-colors text-xs font-medium" href="#">Healthcare</a></li>
               </ul>
             </div>
-            
+
             <div className="md:col-span-3 space-y-6">
               <h4 className="text-white font-bold text-[11px] uppercase tracking-[0.2em] font-headline">Newsletter</h4>
               <p className="text-on-surface-variant/70 text-xs">Stay up to date with the latest innovations.</p>
               <div className="flex bg-[#1b1b20] border-b border-white/20">
-                <input className="bg-transparent text-xs text-white px-4 py-3 w-full focus:outline-none placeholder:text-white/20" placeholder="Email Address" type="email"/>
+                <input className="bg-transparent text-xs text-white px-4 py-3 w-full focus:outline-none placeholder:text-white/20" placeholder="Email Address" type="email" />
                 <button className="bg-primary px-4 py-3 text-on-primary-fixed hover:bg-primary/80 transition-colors">
                   <span className="material-symbols-outlined !text-sm">arrow_forward</span>
                 </button>
               </div>
             </div>
           </div>
-          
+
           <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-6">
             <p className="text-white/40 font-body text-[10px] uppercase tracking-widest">© 2024 HOLYCODE INDIA, A PARTNER TECHNOLOGY COMPANY. ALL RIGHTS RESERVED.</p>
             <div className="flex flex-wrap justify-center gap-6">
@@ -431,7 +431,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        
+
         <div className="fixed bottom-6 right-6 z-50">
           <button className="w-10 h-10 bg-white/10 hover:bg-white/20 transition-colors flex items-center justify-center rounded-sm">
             <span className="material-symbols-outlined text-white/50">expand_less</span>
